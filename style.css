@@ -1,0 +1,121 @@
+/* Styles in Css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #FFF6E9, #80C4E9);
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(116, 232, 90, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+#list{
+    text-align: center;
+}
+
+h2, h3 {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-text {
+    margin-top: 15px;
+    color: #333;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+#fullName, #email, #age, #course {
+    width: calc(100% - 20px);
+    max-width: 600px;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#male, #female {
+    margin-right: 10px;
+}
+
+#interest {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0 20px;
+}
+
+#interest label {
+    margin-right: 20px;
+    color: #333;
+}
+
+#enro {
+    padding: 15px 30px;
+    background-color: #5a67d8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#enro:hover {
+    background-color: #434190;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #4a4a4a;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
